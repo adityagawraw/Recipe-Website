@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url("foodBack.jpg");
+    background-size: cover;
+    background-repeat:repeat-y;
+    font-family: 'Roboto', sans-serif;
+     height: 100vh;
+}
+#hname{
+    text-align: center;
+    color: rgb(255, 145, 0);
+   margin-top: 200px;
+   font-family:Lobster ;
+   font-size:xxx-large;
+}
+#searchBox {
+    display: flex;
+    justify-content: center;
+}
+
+#searchBox input {
+    width: 300px;
+    height: 35px;
+    font-size: large;
+    border: 2px orange solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search {
+    background-color: orange;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 35px; 
+    height: 41px;
+}
+#searchBox button i{
+    color:aliceblue;
+    font-size: large;
+}
+.recipeBox{
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recipeBox img{
+width: 280px;
+margin: 10px;
+border-radius: 10px;
+}
+.details{
+    margin: 10px;
+}
+.details h2{
+    
+    font-weight: bolder;  
+}
+.details div{
+    font-size: large;
+    font-weight: bold;
+}
+.getRecipe{
+    margin: 10px 10px 20px 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    align-self: center;
+    align-items: flex-end;
+    font-weight: bold;
+}
+.getRecipe a{
+text-decoration: none;
+color: aliceblue;
+font-weight: bolder;
+}
+#recipeContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
